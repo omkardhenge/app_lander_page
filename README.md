@@ -1,2 +1,3 @@
 # app_lander_page
-This App Lander Page is basically one kind of Swiggy website clone
+I am a second year engineering student.I have deep knowledge about the HTML,CSS and javascript.This App Lander Page is basically one kind of Swiggy website clone.
+The app lander page is about a famous food delivery application that is used in India.The website can be efficiently viewed on both mobile and desktop.it consists of a navbar,hero section,advantages section,features section,footer section.I have used prototypes to make the website responsive.In navbar,there are buttons a like home,advantages,features,about us,etc.The features of the app are given with short information.The advantages are also introduced.I have tried to design similar to the original website of swiggy.The website can be viewed using the link which I have given below.
