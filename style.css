@@ -1,625 +1,2019 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Bellota Text:wght@400;700&display=swap"
-    />
-  </head>
-  <body>
-    <div class="app-landing-page-parent">
-      <main class="app-landing-page">
-        <header class="app-landing-page-inner">
-          <div class="frame-parent">
-            <div class="frame-wrapper">
-              <div class="frame-group">
-                <div class="frame-container">
-                  <div class="vector-parent">
-                    <img
-                      class="frame-child"
-                      loading="lazy"
-                      alt=""
-                      src="./public/rectangle-2.svg"
-                    />
-
-                    <a class="home">Home</a>
-                  </div>
-                </div>
-                <div class="rectangle-parent">
-                  <div class="frame-item" id="rectangle"></div>
-                  <a class="about-us">about Us</a>
-                </div>
-                <div class="frame-div">
-                  <div class="vector-group">
-                    <img
-                      class="frame-inner"
-                      loading="lazy"
-                      alt=""
-                      src="./public/rectangle-1.svg"
-                      id="rectangle1"
-                    />
-
-                    <a class="advantages" id="advantagesText">Advantages </a>
-                  </div>
-                </div>
-                <div class="frame-wrapper1">
-                  <button class="rectangle-group" id="groupButton">
-                    <div class="rectangle-div"></div>
-                    <a class="features">Features</a>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <button class="rectangle-container" id="groupButton1">
-              <div class="frame-child1"></div>
-              <a class="download">download</a>
-            </button>
-          </div>
-        </header>
-        <section class="app-landing-page-child">
-          <div class="swiggy-order-food-online-fro-parent">
-            <h1 class="swiggy-order-container">
-              <p class="swiggy-order">
-                Swiggy : Order Food Online from India's
-              </p>
-              <p class="p"></p>
-              <p class="blank-line">&nbsp;</p>
-              <p class="best-food-delivery">Best Food Delivery app</p>
-            </h1>
-            <div class="order-food-online-from-restaur-wrapper">
-              <p class="order-food-online">
-                Order food online from restaurants and get it delivered. Serving
-                in Bangalore, Hyderabad, Delhi and more. Order Pizzas, Biryanis,
-                from Swiggy.
-              </p>
-            </div>
-          </div>
-        </section>
-        <div class="app-landing-page-item" id="rectangle"></div>
-        <div class="app-landing-page-child1" id="rectangle1"></div>
-        <section class="frame-section">
-          <div class="group-div" data-scroll-to="groupContainer1">
-            <div class="frame-wrapper2">
-              <div class="frame-parent1">
-                <div class="image-11-parent">
-                  <img
-                    class="image-11-icon"
-                    loading="lazy"
-                    alt=""
-                    src="./public/image-11@2x.png"
-                  />
-
-                  <div class="frame-wrapper3">
-                    <div class="features-parent">
-                      <h1 class="features1">features</h1>
-                      <div class="why-choose-swiggy-wrapper">
-                        <b class="why-choose-swiggy">Why choose Swiggy ?</b>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="frame-wrapper4">
-                  <div class="rider-location-tracking-advanc-parent">
-                    <h1 class="rider-location-tracking-container">
-                      <p class="rider-location-tracking">
-                        Rider Location Tracking
-                      </p>
-                      <p class="advanced-payment-services">
-                        Advanced Payment Services
-                      </p>
-                      <p class="promotional-codes">Promotional Codes</p>
-                      <p class="explore-restaurants">Explore restaurants</p>
-                      <p class="track-your-orders">Track your Orders</p>
-                      <p class="reviews-and-rating">
-                        Reviews and Rating management
-                      </p>
-                      <p class="food-categories-management">
-                        Food Categories management
-                      </p>
-                      <p class="manage-restaurants">Manage Restaurants</p>
-                      <p class="manage-food-cuisines">Manage Food Cuisines</p>
-                      <p class="orders-management">Orders management</p>
-                      <p class="featured-restaurants">Featured Restaurants</p>
-                      <p class="payment-gateway">Payment Gateway</p>
-                      <p class="commission-management">Commission management</p>
-                      <p class="advertisement-services">
-                        Advertisement services
-                      </p>
-                      <p class="ultiple-currencies-and">
-                        ultiple currencies and languages
-                      </p>
-                    </h1>
-                    <div class="frame-parent2">
-                      <img
-                        class="group-icon"
-                        loading="lazy"
-                        alt=""
-                        src="./public/group-35899.svg"
-                      />
-
-                      <img
-                        class="frame-child2"
-                        loading="lazy"
-                        alt=""
-                        src="./public/group-35899.svg"
-                      />
-
-                      <img
-                        class="frame-child3"
-                        alt=""
-                        src="./public/group-35899.svg"
-                      />
-
-                      <img
-                        class="frame-child4"
-                        alt=""
-                        src="./public/group-35899.svg"
-                      />
-
-                      <img
-                        class="frame-child5"
-                        loading="lazy"
-                        alt=""
-                        src="./public/group-1000002360.svg"
-                      />
-                    </div>
-                    <img
-                      class="image-13-icon"
-                      loading="lazy"
-                      alt=""
-                      src="./public/image-13@2x.png"
-                    />
-
-                    <img
-                      class="image-16-icon"
-                      loading="lazy"
-                      alt=""
-                      src="./public/image-16@2x.png"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="what-will-you-get-here-parent">
-              <h1 class="what-will-you">What will you get here..?</h1>
-              <b class="advatnages">advatnages</b>
-              <p class="in-our-app-container">
-                <span class="in-our-app"
-                  >In our app you will get daily discounts on every food
-                  delivery.</span
-                >
-                <span class="you-will-get"
-                  >You will get delicious offers also with some additional
-                  bonuses with each order.So why wait..!Order the indian,south
-                  indian,chinese,punjabi,western and many more..!</span
-                >
-              </p>
-              <h2 class="daily-savings">Daily Savings</h2>
-              <img
-                class="image-20-icon"
-                loading="lazy"
-                alt=""
-                src="./public/image-20@2x.png"
-              />
-
-              <p class="our-app-delivery">
-                Our app delivery is faster which delivers every order on free of
-                cost for many orders.swiggy provides the safest food delivery
-                and we ensures the best food quality also.We are giving guaranty
-                to all our beloved customers to get all the deliveries in just a
-                few minutes.
-              </p>
-              <h2 class="get-the-fastest">Get the fastest delivery</h2>
-              <img
-                class="image-21-icon"
-                loading="lazy"
-                alt=""
-                src="./public/image-21@2x.png"
-              />
-
-              <img
-                class="image-19-icon"
-                loading="lazy"
-                alt=""
-                src="./public/image-19@2x.png"
-                data-scroll-to="image19"
-              />
-
-              <img
-                class="image-18-icon"
-                loading="lazy"
-                alt=""
-                src="./public/image-18@2x.png"
-              />
-            </div>
-          </div>
-        </section>
-        <section class="app-landing-page-inner1">
-          <div class="frame-parent3">
-            <div class="frame-wrapper5">
-              <div class="frame-parent4">
-                <div class="testimonial-wrapper">
-                  <b class="testimonial">testimonial</b>
-                </div>
-                <h1 class="what-our-users">what our users say about us?</h1>
-              </div>
-            </div>
-            <div class="frame-parent5">
-              <div class="the-best-food-delivery-app-eve-wrapper">
-                <h2 class="the-best-food">the best Food Delivery app ever!</h2>
-              </div>
-              <p class="swiggy-instamart-offers-container">
-                <span class="swiggy-instamart-offers-an-out">
-                  <span
-                    >Swiggy Instamart offers an outstanding grocery shopping
-                    experience with its convenient delivery service. It allows
-                    users to order groceries and have them delivered right to
-                    their doorsteps, even in the middle of the night. I just
-                    received my order at 4:00 AM! Definitely a 5-star
-                    service.</span
-                  >
-                </span>
-                <span class="blank-line1">
-                  <span>&nbsp;</span>
-                </span>
-                <span class="span">
-                  <span class="span1"> </span>
-                </span>
-                <span class="akshith-t">
-                  <span class="akshith-t1"> Akshith T. </span>
-                </span>
-                <span class="karnataka">
-                  <span class="karnataka1"> Karnataka</span>
-                </span>
-                <span class="google-play-store">
-                  <span class="google-play-store1"> Google play store</span>
-                  <span class="span2"> </span>
-                </span>
-              </p>
-            </div>
-          </div>
-        </section>
-        <section class="frame-parent6">
-          <div class="wrapper-frame-5-parent">
-            <div class="wrapper-frame-5">
-              <img
-                class="wrapper-frame-5-child"
-                alt=""
-                src="./public/frame-5.svg"
-              />
-            </div>
-            <p class="arcu-at-dictum">
-              “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-              ultricies. In ultrices malesuada elit mauris.
-            </p>
-            <h2 class="the-best-financial">
-              the best financial accounting app ever!
-            </h2>
-            <a class="home1">Home</a>
-            <b class="swiggy">Swiggy</b>
-            <b class="wwwswiggycom">www.swiggy.com</b>
-          </div>
-          <img
-            class="image-26-icon"
-            loading="lazy"
-            alt=""
-            src="./public/image-26@2x.png"
-            id="image26"
-          />
-
-          <img
-            class="image-25-icon"
-            loading="lazy"
-            alt=""
-            src="./public/image-25@2x.png"
-          />
-
-          <img
-            class="frame-icon"
-            loading="lazy"
-            alt=""
-            src="./public/frame-2@2x.png"
-            id="frameImage"
-          />
-
-          <img
-            class="image-10-icon"
-            loading="lazy"
-            alt=""
-            src="./public/image-10@2x.png"
-          />
-
-          <img class="image-12-icon" alt="" src="./public/image-12@2x.png" />
-
-          <img
-            class="image-14-icon"
-            loading="lazy"
-            alt=""
-            src="./public/image-14@2x.png"
-          />
-
-          <img class="image-15-icon" alt="" src="./public/image-15@2x.png" />
-
-          <img
-            class="image-22-icon"
-            loading="lazy"
-            alt=""
-            src="./public/image-22@2x.png"
-          />
-
-          <img
-            class="image-23-icon"
-            loading="lazy"
-            alt=""
-            src="./public/image-23@2x.png"
-          />
-
-          <img
-            class="image-24-icon"
-            loading="lazy"
-            alt=""
-            src="./public/image-24@2x.png"
-          />
-
-          <img
-            class="frame-child6"
-            loading="lazy"
-            alt=""
-            src="./public/group-1000004723.svg"
-          />
-
-          <div class="frame-child7"></div>
-          <div class="wrapper-vector">
-            <img class="vector-icon" alt="" src="./public/vector.svg" />
-          </div>
-          <div class="wrapper-group-1000004719">
-            <img
-              class="wrapper-group-1000004719-child"
-              alt=""
-              src="./public/group-1000004719.svg"
-            />
-          </div>
-          <div class="wrapper-vector1">
-            <img class="vector-icon1" alt="" src="./public/vector-1.svg" />
-          </div>
-          <div class="wrapper-vector2">
-            <img class="vector-icon2" alt="" src="./public/vector-2.svg" />
-          </div>
-          <img class="image-28-icon" alt="" src="./public/image-28@2x.png" />
-        </section>
-        <section class="frame-parent7">
-          <div class="frame-parent8">
-            <div class="frequently-asked-questions-wrapper">
-              <h1 class="frequently-asked-questions">
-                Frequently asked questions
-              </h1>
-            </div>
-            <div class="frame-parent9">
-              <div class="frame-wrapper6">
-                <div class="rectangle-parent1">
-                  <div class="frame-child8"></div>
-                  <div class="what-is-swiggy-customer-care-n-wrapper">
-                    <h2 class="what-is-swiggy">
-                      What is Swiggy Customer Care Number?
-                    </h2>
-                  </div>
-                  <p class="what-is-swiggy-container">
-                    <span class="what-is-swiggy1"
-                      >What is Swiggy Customer Care Number?</span
-                    >
-                    <span class="we-value-our"
-                      >We value our customer’s time and hence moved away from a
-                      single customer care number to a comprehensive chat-based
-                      support system for quick and easy resolution. You no
-                      longer have to go through the maze of an IVRS call
-                      support. Just search for your issue in the help section on
-                      this page and initiate a chat with us.</span
-                    >
-                  </p>
-                </div>
-              </div>
-              <div class="rectangle-parent2">
-                <div class="frame-child9"></div>
-                <h2 class="can-i-edit">Can I edit my order?</h2>
-                <p class="your-order-can">
-                  Your order can be edited before it reaches the restaurant. You
-                  could contact customer support team via chat or call to do so.
-                  Once order is placed and restaurant starts preparing your
-                  food, you may not edit its contents
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="frame-wrapper7">
-            <div class="frame-parent10">
-              <div class="rectangle-parent3">
-                <div class="frame-child10"></div>
-                <h2 class="will-swiggy-be">
-                  Will Swiggy be accountable for quality/quantity?
-                </h2>
-                <p class="quantity-and-quality">
-                  Quantity and quality of the food is the restaurants'
-                  responsibility. However in case of issues with the quality or
-                  quantity, kindly submit your feedback and we will pass it on
-                  to the restaurant.
-                </p>
-              </div>
-              <div class="frame-frame">
-                <div class="frame">
-                  <div class="frame-inner1">
-                    <div class="ready-to-get-started-parent">
-                      <h1 class="ready-to-get">ready to get started?</h1>
-                      <p class="so-why-wait-container">
-                        <span class="so-why-wait">So why wait? </span>
-                        <span class="check-out-the"
-                          >Check out the mobile and download our app and search
-                          for your favourite food !</span
-                        >
-                      </p>
-                    </div>
-                  </div>
-                  <img
-                    class="frame-child11"
-                    loading="lazy"
-                    alt=""
-                    src="./public/group-1000004718.svg"
-                  />
-
-                  <div class="frame-parent11">
-                    <img
-                      class="frame-child12"
-                      alt=""
-                      src="./public/group-1000004718.svg"
-                    />
-
-                    <button class="group-button">
-                      <div class="frame-child13"></div>
-                      <div class="download-app-wrapper">
-                        <b class="download-app">download app</b>
-                      </div>
-                      <div class="image-24-wrapper">
-                        <img
-                          class="image-24-icon1"
-                          alt=""
-                          src="./public/image-24-1@2x.png"
-                        />
-                      </div>
-                      <div class="vector-wrapper">
-                        <img
-                          class="vector-icon3"
-                          alt=""
-                          src="./public/vector-3.svg"
-                        />
-                      </div>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <footer class="frame-footer">
-            <div class="frame-parent12" data-scroll-to="groupContainer">
-              <div class="frame-wrapper8">
-                <div class="frame-parent13">
-                  <div class="tm-wrapper">
-                    <b class="tm">TM</b>
-                  </div>
-                  <div class="frame-parent14">
-                    <div class="links-wrapper">
-                      <h1 class="links">links</h1>
-                    </div>
-                    <b class="home2">home</b>
-                    <b class="about-us1">about us</b>
-                    <b class="offers">offers</b>
-                    <b class="blog">blog</b>
-                  </div>
-                  <div class="legal-parent">
-                    <h1 class="legal">legal</h1>
-                    <b class="terms-of-use">terms of use</b>
-                    <b class="privacy-policy">privacy policy</b>
-                    <b class="cookie-policy">cookie policy</b>
-                  </div>
-                  <div class="product-parent">
-                    <b class="product">product</b>
-                    <b class="take-tour">take tour</b>
-                    <b class="live-chat">live chat</b>
-                    <b class="reveiws">reveiws</b>
-                  </div>
-                </div>
-              </div>
-              <div class="frame1">
-                <b class="bundl-technologies-pvt"
-                  >© 2024 Bundl Technologies Pvt. Ltd</b
-                >
-              </div>
-            </div>
-          </footer>
-        </section>
-      </main>
-    </div>
-
-    <script>
-      var rectangle = document.getElementById("rectangle");
-      if (rectangle) {
-        rectangle.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='groupContainer']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var rectangle1 = document.getElementById("rectangle1");
-      if (rectangle1) {
-        rectangle1.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='image19']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var advantagesText = document.getElementById("advantagesText");
-      if (advantagesText) {
-        advantagesText.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='image19']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var groupButton = document.getElementById("groupButton");
-      if (groupButton) {
-        groupButton.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='groupContainer1']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var groupButton1 = document.getElementById("groupButton1");
-      if (groupButton1) {
-        groupButton1.addEventListener("click", function () {
-          window.open(
-            "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en_IN"
-          );
-        });
-      }
-      
-      var rectangle1 = document.getElementById("rectangle1");
-      if (rectangle1) {
-        rectangle1.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='groupContainer']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var image26 = document.getElementById("image26");
-      if (image26) {
-        image26.addEventListener("click", function () {
-          window.open(
-            "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en"
-          );
-        });
-      }
-      
-      var frameImage = document.getElementById("frameImage");
-      if (frameImage) {
-        frameImage.addEventListener("click", function () {
-          window.open(
-            "https://apps.apple.com/in/app/swiggy-food-grocery-dineout/id989540920"
-          );
-        });
-      }
-      </script>
-  </body>
-</html>
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  left: 45px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  width: 65px;
+  height: 28px;
+  z-index: 2;
+}
+.vector-parent {
+  align-self: stretch;
+  height: 46px;
+  position: relative;
+}
+.frame-container {
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-chocolate-200);
+  width: 131px;
+  height: 47px;
+  cursor: pointer;
+  z-index: 3;
+}
+.about-us {
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  left: 34px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  width: 82px;
+  height: 27px;
+  white-space: nowrap;
+  z-index: 4;
+}
+.rectangle-parent {
+  height: 47px;
+  flex: 1;
+  position: relative;
+}
+.advantages,
+.frame-inner {
+  position: absolute;
+  cursor: pointer;
+}
+.frame-inner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.advantages {
+  text-decoration: none;
+  top: 10px;
+  left: 25px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  width: 96px;
+  height: 27px;
+  white-space: nowrap;
+  z-index: 3;
+}
+.vector-group {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.frame-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+}
+.rectangle-div {
+  height: 46px;
+  width: 131px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-chocolate-100);
+  display: none;
+}
+.features {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--font-bellota-text);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-base) 9px var(--padding-14xl);
+  background-color: var(--color-chocolate-100);
+  align-self: stretch;
+  border-radius: var(--br-4xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.rectangle-group:hover {
+  background-color: #c24d00;
+}
+.frame-wrapper1 {
+  width: 131px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-group,
+.frame-wrapper,
+.frame-wrapper1 {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.frame-wrapper {
+  width: 588px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child1 {
+  height: 67px;
+  width: 197px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-chocolate-200);
+  display: none;
+}
+.download {
+  text-decoration: none;
+  width: 128.2px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 31px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--font-bellota-text);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 0;
+  padding: 18px var(--padding-5xl);
+  background-color: var(--color-chocolate-200);
+  width: 197px;
+  border-radius: var(--br-4xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.rectangle-container:hover {
+  background-color: #db752b;
+}
+.app-landing-page-inner,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frame-parent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.app-landing-page-inner {
+  width: 1304px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 69px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-bellota-text);
+}
+.best-food-delivery,
+.blank-line,
+.p,
+.swiggy-order {
+  margin: 0;
+}
+.order-food-online,
+.swiggy-order-container {
+  margin: 0;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  z-index: 1;
+}
+.swiggy-order-container {
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 24px;
+  font-family: inherit;
+  -webkit-text-stroke: 4px #151313;
+}
+.order-food-online {
+  flex: 1;
+  line-height: 28px;
+  display: inline-block;
+  mix-blend-mode: linear-burn;
+  max-width: 100%;
+}
+.order-food-online-from-restaur-wrapper {
+  width: 694px;
+  flex-direction: row;
+  padding: 0 28px;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.app-landing-page-child,
+.order-food-online-from-restaur-wrapper,
+.swiggy-order-food-online-fro-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.swiggy-order-food-online-fro-parent {
+  width: 1074px;
+  flex-direction: column;
+  gap: 80px;
+}
+.app-landing-page-child {
+  width: 1411px;
+  flex-direction: row;
+  padding: 0 78px 349px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-bellota-text);
+}
+.app-landing-page-child1,
+.app-landing-page-item {
+  width: 131px;
+  height: 47px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-chocolate-200);
+  display: none;
+  cursor: pointer;
+  z-index: 2;
+}
+.app-landing-page-child1 {
+  z-index: 3;
+}
+.image-11-icon {
+  height: 253px;
+  width: 288px;
+  position: relative;
+  object-fit: cover;
+}
+.features1,
+.why-choose-swiggy {
+  position: relative;
+  text-shadow: 1px 0 0#151313, 0 1px 0#151313, -1px 0 0#151313, 0-1px 0#151313;
+}
+.features1 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.16em;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.why-choose-swiggy {
+  line-height: 48px;
+  text-transform: capitalize;
+}
+.features-parent,
+.why-choose-swiggy-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.why-choose-swiggy-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xs);
+  font-size: var(--font-size-29xl);
+  color: #0671bf;
+}
+.features-parent {
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.frame-wrapper3,
+.image-11-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper3 {
+  width: 488px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 56px 0 0;
+  box-sizing: border-box;
+}
+.image-11-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.advanced-payment-services,
+.advertisement-services,
+.commission-management,
+.explore-restaurants,
+.featured-restaurants,
+.food-categories-management,
+.manage-food-cuisines,
+.manage-restaurants,
+.orders-management,
+.payment-gateway,
+.promotional-codes,
+.reviews-and-rating,
+.rider-location-tracking,
+.track-your-orders,
+.ultiple-currencies-and {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.rider-location-tracking-container {
+  margin: 0;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 337px;
+  font-size: inherit;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 664px;
+  z-index: 2;
+}
+.frame-child2,
+.frame-child3,
+.frame-child4,
+.group-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 3;
+}
+.frame-child5 {
+  width: 24px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  z-index: 3;
+}
+.frame-parent2 {
+  position: absolute;
+  top: 0;
+  left: 341px;
+  height: 414px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.5px;
+}
+.image-13-icon,
+.image-16-icon {
+  position: absolute;
+  object-fit: cover;
+  z-index: 2;
+}
+.image-13-icon {
+  top: 54px;
+  left: 0;
+  width: 288px;
+  height: 215px;
+}
+.image-16-icon {
+  bottom: -154px;
+  left: 36px;
+  width: 217px;
+  height: 228px;
+}
+.rider-location-tracking-advanc-parent {
+  height: 448px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frame-wrapper4 {
+  width: 1043px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: #852f0a;
+}
+.frame-parent1,
+.frame-wrapper2 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.frame-wrapper2 {
+  width: 1240px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 22px;
+  box-sizing: border-box;
+}
+.advatnages,
+.what-will-you {
+  position: absolute;
+  font-weight: 700;
+}
+.what-will-you {
+  margin: 0;
+  top: 85px;
+  left: 120px;
+  font-size: var(--font-size-29xl);
+  line-height: 48px;
+  text-transform: capitalize;
+  font-family: inherit;
+}
+.advatnages {
+  top: 53px;
+  left: 100px;
+  letter-spacing: 0.16em;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #f55;
+}
+.in-our-app,
+.you-will-get {
+  display: block;
+}
+.daily-savings,
+.in-our-app-container {
+  margin: 0;
+  position: absolute;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.in-our-app-container {
+  top: 232px;
+  left: 138px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 594px;
+  height: 161px;
+  max-height: 161px;
+  word-break: break-word;
+}
+.daily-savings {
+  top: 171.5px;
+  left: 200px;
+  font-size: var(--font-size-9xl);
+  font-family: inherit;
+}
+.image-20-icon {
+  position: absolute;
+  top: 146px;
+  left: 110px;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.get-the-fastest,
+.our-app-delivery {
+  margin: 0;
+  position: absolute;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.our-app-delivery {
+  top: 816px;
+  left: 756px;
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 562px;
+}
+.get-the-fastest {
+  top: 755px;
+  left: 811px;
+  font-size: var(--font-size-9xl);
+  font-family: inherit;
+}
+.image-18-icon,
+.image-19-icon,
+.image-21-icon {
+  position: absolute;
+  top: 719px;
+  left: 684px;
+  width: 85px;
+  height: 71px;
+  object-fit: cover;
+}
+.image-18-icon,
+.image-19-icon {
+  top: 481px;
+  left: 0;
+  border-radius: var(--br-6xs);
+  width: 493px;
+  height: 556px;
+}
+.image-18-icon {
+  top: 0;
+  left: 814px;
+  width: 484px;
+  height: 549px;
+  z-index: 2;
+}
+.what-will-you-get-here-parent {
+  align-self: stretch;
+  height: 1037px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.frame-section,
+.group-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.group-div {
+  width: 1318px;
+  flex-direction: column;
+  gap: 91px;
+  z-index: 1;
+}
+.frame-section {
+  width: 1411px;
+  flex-direction: row;
+  padding: 0 0 41px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: #7e1313;
+  font-family: var(--font-bellota-text);
+}
+.testimonial {
+  position: relative;
+  letter-spacing: 0.16em;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  z-index: 1;
+}
+.testimonial-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-5xl);
+}
+.what-our-users {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  line-height: 48px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  color: #3827a0;
+  z-index: 1;
+}
+.frame-parent4,
+.frame-wrapper5 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent4 {
+  width: 455px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.frame-wrapper5 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.the-best-food {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.the-best-food-delivery-app-eve-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blank-line1,
+.swiggy-instamart-offers-an-out {
+  display: block;
+  white-space: pre-wrap;
+}
+.span1 {
+  white-space: pre-wrap;
+}
+.span {
+  display: block;
+  color: var(--color-darkolivegreen);
+}
+.akshith-t1 {
+  white-space: pre-wrap;
+}
+.akshith-t {
+  display: block;
+}
+.karnataka1 {
+  white-space: pre-wrap;
+}
+.karnataka {
+  display: block;
+}
+.google-play-store1,
+.karnataka,
+.span2 {
+  white-space: pre-wrap;
+}
+.span2 {
+  color: var(--color-gray-100);
+}
+.google-play-store {
+  display: block;
+}
+.swiggy-instamart-offers-container {
+  margin: 0;
+  width: 416px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-parent3,
+.frame-parent5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent5 {
+  width: 449px;
+  align-items: flex-start;
+  gap: 36.3px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+}
+.frame-parent3 {
+  width: 810px;
+  align-items: flex-end;
+  gap: 127.7px;
+}
+.app-landing-page-inner1 {
+  width: 1072px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-54xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  font-family: var(--font-bellota-text);
+}
+.wrapper-frame-5-child {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 48px;
+  top: 0;
+  width: 100%;
+  transform: scale(1.067);
+}
+.wrapper-frame-5 {
+  height: 8220px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.arcu-at-dictum,
+.the-best-financial {
+  line-height: 28px;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.arcu-at-dictum {
+  margin: 0 !important;
+  width: 466px;
+  position: absolute;
+  bottom: 3603px;
+  left: 240px;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  text-align: justify;
+  display: inline-block;
+}
+.the-best-financial {
+  width: 474px;
+  bottom: 3667px;
+  left: 244px;
+  font-size: var(--font-size-9xl);
+  font-family: inherit;
+}
+.home1,
+.swiggy,
+.the-best-financial,
+.wwwswiggycom {
+  position: absolute;
+  margin: 0 !important;
+  font-weight: 700;
+  display: inline-block;
+}
+.home1 {
+  text-decoration: none;
+  top: 61px;
+  left: 667px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: inherit;
+  min-width: 42px;
+  z-index: 1;
+}
+.swiggy,
+.wwwswiggycom {
+  color: var(--color-gray-100);
+  z-index: 3;
+}
+.swiggy {
+  bottom: 2745px;
+  left: 217px;
+  font-size: var(--font-size-5xl);
+  min-width: 77px;
+}
+.wwwswiggycom {
+  bottom: 2700px;
+  left: 213px;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+.wrapper-frame-5-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 8220px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-icon,
+.image-25-icon,
+.image-26-icon {
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-26-icon {
+  top: 5411px;
+  left: 1000px;
+  width: 377px;
+  height: 120px;
+  cursor: pointer;
+}
+.frame-icon,
+.image-25-icon {
+  top: 5486px;
+  left: 172px;
+  width: 41px;
+  height: 38px;
+}
+.frame-icon {
+  top: 5553px;
+  left: 1000px;
+  width: 380px;
+  height: 122px;
+  cursor: pointer;
+  z-index: 3;
+}
+.image-10-icon,
+.image-12-icon {
+  position: absolute;
+  top: 8px;
+  left: 78px;
+  width: 122px;
+  height: 131px;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-12-icon {
+  top: 927px;
+  left: 402px;
+  width: 288px;
+  height: 253px;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.image-14-icon,
+.image-15-icon {
+  position: absolute;
+  top: 1232px;
+  left: 12px;
+  width: 237px;
+  height: 228px;
+  object-fit: cover;
+  z-index: 2;
+}
+.image-15-icon {
+  top: 1476px;
+  left: 39px;
+  width: 225px;
+  height: 231px;
+  z-index: 3;
+}
+.image-22-icon {
+  top: 3552px;
+  left: 850px;
+  border-radius: 40px;
+  width: 34px;
+  height: 30px;
+}
+.image-22-icon,
+.image-23-icon,
+.image-24-icon {
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-23-icon {
+  top: 3169px;
+  left: 91px;
+  border-radius: var(--br-6xs);
+  width: 639px;
+  height: 621px;
+}
+.image-24-icon {
+  top: 5434px;
+  left: 162px;
+  width: 51px;
+  height: 48px;
+}
+.frame-child6,
+.frame-child7 {
+  position: absolute;
+  top: 153px;
+  left: 1142px;
+  width: 610.2px;
+  height: 568.2px;
+  z-index: 2;
+}
+.frame-child7 {
+  top: 429px;
+  left: 874px;
+  background-color: #d9d9d9;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+.vector-icon {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(2.218);
+}
+.wrapper-vector {
+  position: absolute;
+  top: 414px;
+  left: 1109px;
+  width: 492.6px;
+  height: 624.1px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-group-1000004719-child {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.718);
+}
+.wrapper-group-1000004719 {
+  position: absolute;
+  top: 437px;
+  left: -29px;
+  width: 557px;
+  height: 590.2px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vector-icon1 {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.683);
+}
+.wrapper-vector1 {
+  position: absolute;
+  top: 4548px;
+  left: -331px;
+  width: 585.9px;
+  height: 587.3px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vector-icon2 {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(3.439);
+}
+.wrapper-vector2 {
+  position: absolute;
+  top: 2902px;
+  left: -44px;
+  width: 527px;
+  height: 205px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-28-icon {
+  position: absolute;
+  top: 449px;
+  left: 681px;
+  border-radius: 15px;
+  width: 642px;
+  height: 527px;
+  object-fit: cover;
+  z-index: 4;
+}
+.frame-parent6 {
+  width: 1521.2px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-bellota-text);
+}
+.frequently-asked-questions {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 1px 0 0#151313, 0 1px 0#151313, -1px 0 0#151313, 0-1px 0#151313;
+  max-width: 100%;
+  z-index: 1;
+}
+.frequently-asked-questions-wrapper {
+  width: 545px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child8,
+.what-is-swiggy {
+  position: relative;
+  max-width: 100%;
+}
+.frame-child8 {
+  width: 535px;
+  height: 337px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-limegreen);
+  display: none;
+}
+.what-is-swiggy {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.what-is-swiggy-customer-care-n-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 4px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.we-value-our,
+.what-is-swiggy1 {
+  display: block;
+}
+.what-is-swiggy-container {
+  margin: 0;
+  width: 466px;
+  height: 233.7px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-align: justify;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-wrapper6,
+.rectangle-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent1 {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-limegreen);
+  padding: 32.3px var(--padding-11xs) 4.2px 55px;
+  gap: 10.8px;
+  z-index: 1;
+}
+.frame-wrapper6 {
+  flex: 1;
+  padding: 0 0 124px;
+  min-width: 348px;
+  min-height: 461px;
+}
+.frame-child9 {
+  width: 535px;
+  height: 215px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-yellowgreen);
+  display: none;
+  max-width: 100%;
+}
+.can-i-edit,
+.your-order-can {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  z-index: 1;
+}
+.can-i-edit {
+  font-size: inherit;
+  font-family: inherit;
+}
+.your-order-can {
+  height: 79px;
+  font-size: var(--font-size-lg);
+  text-align: justify;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.rectangle-parent2 {
+  flex: 0.886;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-yellowgreen);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-mini) var(--padding-11xs) 87px var(--padding-40xl);
+  box-sizing: border-box;
+  gap: 6px;
+  min-width: 348px;
+  z-index: 1;
+}
+.frame-parent8,
+.frame-parent9,
+.rectangle-parent2 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent9 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 106px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+}
+.frame-parent8 {
+  width: 1176px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16xl);
+}
+.frame-child10 {
+  width: 535px;
+  height: 227px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-cornflowerblue-100);
+  display: none;
+  max-width: 100%;
+}
+.quantity-and-quality,
+.will-swiggy-be {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  z-index: 1;
+}
+.will-swiggy-be {
+  font-size: inherit;
+  font-family: inherit;
+}
+.quantity-and-quality {
+  height: 56.9px;
+  font-size: var(--font-size-lg);
+  text-align: justify;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.rectangle-parent3 {
+  width: 535px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-cornflowerblue-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 31.5px var(--padding-11xs) var(--padding-54xl) var(--padding-40xl);
+  box-sizing: border-box;
+  gap: 8.2px;
+  min-height: 227px;
+  max-width: 100%;
+  z-index: 2;
+}
+.ready-to-get {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.check-out-the,
+.so-why-wait {
+  display: block;
+}
+.so-why-wait-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #8f9c02;
+  z-index: 1;
+}
+.frame-inner1,
+.ready-to-get-started-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.ready-to-get-started-parent {
+  align-self: stretch;
+  gap: var(--gap-base);
+  debug_commit: bf4bc93;
+  max-width: 100%;
+}
+.frame-inner1 {
+  width: 536px;
+  padding: 0 0 167px;
+  box-sizing: border-box;
+  min-height: 316px;
+  max-width: calc(100% - 836px);
+}
+.frame-child11 {
+  height: 719.5px;
+  width: 719.5px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: calc(100% - 653px);
+}
+.frame-child12 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-child13 {
+  height: 60px;
+  width: 250px;
+  position: relative;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.download-app {
+  width: 141.8px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--font-bellota-text);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 1px 0 0#151313, 0 1px 0#151313, -1px 0 0#151313, 0-1px 0#151313;
+  z-index: 1;
+}
+.download-app-wrapper {
+  width: 129.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.image-24-icon1 {
+  width: 38px;
+  height: 38px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.image-24-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.vector-icon3 {
+  width: 31px;
+  height: 31.6px;
+  position: relative;
+  z-index: 1;
+}
+.group-button,
+.vector-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.group-button {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-100);
+  padding: var(--padding-2xs) var(--padding-base) var(--padding-6xs) 26px;
+  background-color: var(--color-white);
+  border-radius: var(--br-6xs);
+  flex-direction: row;
+  row-gap: 20px;
+  z-index: 1;
+}
+.frame,
+.frame-parent11 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.frame-parent11 {
+  width: 719.5px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -407.5px;
+  left: -328px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 128px var(--padding-45xl);
+  min-height: 720px;
+}
+.frame {
+  height: 504px;
+  width: 1090px;
+  border-radius: 8px;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 156px 77px 32.5px;
+  position: relative;
+  gap: 117px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-29xl);
+  color: #9d0c97;
+}
+.frame-frame,
+.frame-parent10,
+.frame-wrapper7 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent10 {
+  width: 1132px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+}
+.frame-wrapper7 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0 48.7px;
+  box-sizing: border-box;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+}
+.tm {
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 9px;
+}
+.tm-wrapper {
+  width: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  font-size: 4.2px;
+  color: #262626;
+}
+.links {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 74px;
+}
+.links-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 5px;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+}
+.about-us1,
+.blog,
+.home2,
+.offers {
+  position: relative;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 42px;
+}
+.about-us1,
+.blog,
+.offers {
+  min-width: 67px;
+}
+.blog,
+.offers {
+  min-width: 46px;
+}
+.blog {
+  min-width: 33px;
+}
+.frame-parent14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.cookie-policy,
+.legal,
+.privacy-policy,
+.terms-of-use {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.legal {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+  line-height: 42px;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 76px;
+}
+.cookie-policy,
+.privacy-policy,
+.terms-of-use {
+  line-height: 26px;
+  min-width: 97px;
+}
+.cookie-policy,
+.privacy-policy {
+  font-weight: 700;
+  min-width: 96px;
+}
+.legal-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+  gap: var(--gap-base);
+}
+.live-chat,
+.product,
+.reveiws,
+.take-tour {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+}
+.product {
+  font-size: var(--font-size-13xl);
+  line-height: 42px;
+  min-width: 110px;
+}
+.live-chat,
+.reveiws,
+.take-tour {
+  line-height: 26px;
+  min-width: 70px;
+}
+.live-chat,
+.reveiws {
+  min-width: 68px;
+}
+.reveiws {
+  min-width: 58px;
+}
+.product-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frame-parent13,
+.frame-wrapper8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent13 {
+  flex: 1;
+  justify-content: space-between;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  gap: var(--gap-xl);
+}
+.frame-wrapper8 {
+  width: 744px;
+  justify-content: flex-start;
+  padding: 0 72px;
+  box-sizing: border-box;
+}
+.bundl-technologies-pvt {
+  position: relative;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+.frame-footer,
+.frame-parent12,
+.frame-parent7,
+.frame1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame1 {
+  align-self: stretch;
+  border: 1px solid transparent;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 42px 369px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  font-size: var(--font-size-xl);
+}
+.frame-footer,
+.frame-parent12,
+.frame-parent7 {
+  max-width: 100%;
+}
+.frame-parent12 {
+  flex: 1;
+  flex-direction: column;
+  gap: 72.3px;
+  z-index: 2;
+}
+.frame-footer,
+.frame-parent7 {
+  text-align: left;
+  font-family: var(--font-bellota-text);
+}
+.frame-footer {
+  width: 1166px;
+  flex-direction: row;
+  padding: 0 var(--padding-19xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.frame-parent7 {
+  width: 1287px;
+  flex-direction: column;
+  gap: var(--gap-51xl);
+  font-size: var(--font-size-29xl);
+  color: rgba(255, 85, 85, 0.66);
+}
+.app-landing-page,
+.app-landing-page-parent {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.app-landing-page {
+  border-radius: 50px;
+  background-color: var(--color-white);
+  overflow-x: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-14xl) var(--padding-45xl) 51px 61px;
+  gap: 150px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 101%;
+}
+.app-landing-page-parent {
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .app-landing-page-inner {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .app-landing-page-child {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .frame-section {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .frame-parent9 {
+    gap: 53px;
+  }
+  .frame-child11,
+  .frame-inner1 {
+    display: none;
+    max-width: 100%;
+  }
+  .frame-parent10 {
+    gap: var(--gap-16xl);
+  }
+  .app-landing-page {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .swiggy-order-food-online-fro-parent {
+    gap: 40px;
+  }
+  .image-11-parent {
+    flex-wrap: wrap;
+  }
+  .frame-section {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-parent3 {
+    gap: 64px;
+  }
+  .frame-wrapper6,
+  .rectangle-parent2 {
+    flex: 1;
+  }
+  .frame-parent9 {
+    flex-wrap: wrap;
+  }
+  .frame {
+    padding-top: 101px;
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .frame-wrapper7 {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .frame1 {
+    padding-left: var(--padding-165xl);
+    padding-right: var(--padding-165xl);
+    box-sizing: border-box;
+  }
+  .frame-parent12 {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .swiggy-order-container {
+    font-size: var(--font-size-19xl);
+    line-height: 19px;
+  }
+  .swiggy-order-food-online-fro-parent {
+    gap: var(--gap-xl);
+  }
+  .app-landing-page-child {
+    padding-bottom: 227px;
+    box-sizing: border-box;
+  }
+  .features1 {
+    font-size: var(--font-size-7xl);
+    line-height: 22px;
+  }
+  .why-choose-swiggy {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .rider-location-tracking-container {
+    font-size: var(--font-size-7xl);
+    line-height: 22px;
+  }
+  .what-will-you {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .group-div {
+    gap: 45px;
+  }
+  .what-our-users {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .app-landing-page-inner1 {
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+  .frequently-asked-questions {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .rectangle-parent1 {
+    padding-left: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .frame-wrapper6 {
+    min-width: 100%;
+  }
+  .rectangle-parent2 {
+    padding-left: var(--padding-10xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frame-parent9 {
+    gap: 26px;
+  }
+  .frame-parent8 {
+    gap: var(--gap-mid);
+  }
+  .rectangle-parent3 {
+    padding-left: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .ready-to-get {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .group-button {
+    flex-wrap: wrap;
+  }
+  .frame {
+    height: auto;
+    gap: 58px;
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .frame-parent10 {
+    gap: var(--gap-mid);
+  }
+  .legal,
+  .links,
+  .product {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .frame-parent13 {
+    flex-wrap: wrap;
+  }
+  .frame-wrapper8,
+  .frame1 {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .frame1 {
+    padding-left: var(--padding-73xl);
+    padding-right: var(--padding-73xl);
+  }
+  .frame-parent12 {
+    gap: var(--gap-lg);
+  }
+  .frame-parent7 {
+    gap: var(--gap-16xl);
+  }
+  .app-landing-page {
+    gap: 75px;
+    padding-left: 30px;
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .swiggy-order-container {
+    font-size: var(--font-size-10xl);
+    line-height: 14px;
+  }
+  .features1 {
+    font-size: var(--font-size-lgi);
+    line-height: 17px;
+  }
+  .why-choose-swiggy {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+  .rider-location-tracking-container {
+    font-size: var(--font-size-lgi);
+    line-height: 17px;
+  }
+  .what-will-you {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+  .in-our-app-container {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .daily-savings,
+  .get-the-fastest {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .group-div {
+    gap: 23px;
+  }
+  .what-our-users {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+  .the-best-food {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .swiggy-instamart-offers-container {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .frame-parent5 {
+    gap: var(--gap-lg);
+  }
+  .frame-parent3 {
+    gap: 32px;
+  }
+  .the-best-financial {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .swiggy {
+    font-size: var(--font-size-lgi);
+  }
+  .frequently-asked-questions {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+  .what-is-swiggy {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .frame-wrapper6 {
+    padding-bottom: 81px;
+    box-sizing: border-box;
+  }
+  .can-i-edit,
+  .will-swiggy-be {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .ready-to-get {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+  .frame {
+    gap: 29px;
+    padding-top: 66px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-wrapper7 {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .legal,
+  .links,
+  .product {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .bundl-technologies-pvt {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .frame1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-parent7 {
+    gap: var(--gap-mid);
+  }
+  .app-landing-page {
+    gap: 37px;
+  }
+}
